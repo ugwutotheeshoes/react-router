@@ -1,20 +1,10 @@
-import { Link } from "react-router-dom"
-
 const Header = () => {
     return (
-        <div>
-            <h1>React Router Tutorial</h1>
-            <ul className='nav'>
-                <li>
-                    <Link to='/'>Home</Link>
-                </li>
-                <li>
-                    <Link to='/about'>About</Link>
-                </li>
-                <li>
-                    <Link to='/profile'>Profile</Link>
-                </li>
-            </ul>
+        <div className="menu">
+            <div className="container">
+            <h1>Contact Manager</h1>
+            <hr />
+            </div>
         </div>
     )
 }
